@@ -1,0 +1,19 @@
+1.  Make sure the below line is uncommented in file C:\xampp\apache\conf\httpd.conf
+        Include conf/extra/httpd-vhosts.conf
+
+2. Place below code in the file C:\xampp\apache\conf\extra/httpd-vhosts.conf
+
+<VirtualHost localhost:80>
+	ServerAdmin localhost
+	ServerName localhost
+
+	 DocumentRoot "D:/PHP"
+	<Directory "D:/PHP">
+		Options Indexes FollowSymLinks Includes ExecCGI
+        AllowOverride All
+		Require all granted
+    </Directory>
+</VirtualHost>
+
+
+This will direct the localhost to the above path
