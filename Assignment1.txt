@@ -1,3 +1,7 @@
+Question:
+How to access a php file from other location than the default location (htdocs folder from xmpp)
+
+Answer:
 1.  Make sure the below line is uncommented in file C:\xampp\apache\conf\httpd.conf
         Include conf/extra/httpd-vhosts.conf
 
@@ -17,3 +21,9 @@
 
 
 This will direct the localhost to the above path
+
+Revised Question:
+change server name to something apart from localhost (maybe you can use "local.php.com")
+From browser it must be accessible using "local.php.com"(locahost" and "local.php.com"  should work at same time )
+
+Revised Answer:
