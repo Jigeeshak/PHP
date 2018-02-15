@@ -1,7 +1,7 @@
 
 <?php
 
-echo "i am in php storm </br>";
+
 $content ="";
 $relativepath = "http://php.net/manual/en/";
 if(!$fp = fopen($relativepath."ref.array.php" ,"r" ))
