@@ -1,0 +1,7 @@
+Create php crawler  with following operations
+	1. Fetch HTML of url http://php.net/manual/en/ref.array.php
+	2. Store fetched html in local file (only for backup purpose ). Every time same file should be overwritten.
+	3. Process on fetched html in such a way that it should display array functions with descriptions in tabular format. (functions which are there in section "Table of Contents")
+	4. Column names of table: function_name, description, reference link etc.
+	5. Reference methods to use: implode, explode, split, preg_replace etc
+	6. Use xdebug for debugging.
